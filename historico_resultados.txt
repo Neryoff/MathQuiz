@@ -1,3 +1,0 @@
-3 acertos, 2 erros - 60.00% - Tempo: 53.11s - Dificuldade: fácil - Op: %
-5 acertos, 0 erros - 100.00% - Tempo: 11.44s - Dificuldade: médio - Op: raiz
-1 acertos, 4 erros - 20.00% - Tempo: 22.57s - Dificuldade: difícil - Op: *

@@ -12,9 +12,9 @@ def carregar_historico():
         linhas = file.readlines()
         return [linha.strip() for linha in linhas]
 
-def salvar_resultado(acertos, erros, percentual, tempo, dificuldade, operacoes):
+def salvar_resultado(nome, acertos, erros, percentual, tempo, dificuldade, operacoes):
     with open(ARQUIVO_HISTORICO, "a") as file:
-        file.write(f"{acertos} acertos, {erros} erros - {percentual:.2f}% - Tempo: {tempo:.2f}s - Dificuldade: {dificuldade} - Op: {', '.join(operacoes)}\n")
+        file.write(f"{nome} - {acertos} acertos, {erros} erros - {percentual:.2f}% - Tempo: {tempo:.2f}s - Dificuldade: {dificuldade} - Op: {', '.join(operacoes)}\n")
 
 def mostrar_resultados():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -106,9 +106,17 @@ def gerar_pergunta(dificuldade, operacoes):
 def iniciar_quiz():
     os.system('cls' if os.name == 'nt' else 'clear')
     print("🎯 Iniciando o Quiz de Matemática Avançado!\n")
+
+    nome = input("Digite seu nome: ").strip()
+    while not nome:
+        print("Nome não pode ser vazio.")
+        nome = input("Digite seu nome: ").strip()
+
     dificuldade = escolher_dificuldade()
     operacoes = escolher_operacoes()
-    num_perguntas = 5
+
+    num_perguntas = {'fácil': 5, 'médio': 10, 'difícil': 15}[dificuldade]
+
     acertos = 0
     erros = 0
 
@@ -136,12 +144,13 @@ def iniciar_quiz():
     percentual = (acertos / num_perguntas) * 100
 
     print("\n📊 Resultado final:")
+    print(f"Nome: {nome}")
     print(f"Acertos: {acertos}")
     print(f"Erros: {erros}")
     print(f"Desempenho: {percentual:.2f}%")
     print(f"Tempo total: {duracao:.2f} segundos")
 
-    salvar_resultado(acertos, erros, percentual, duracao, dificuldade, operacoes)
+    salvar_resultado(nome, acertos, erros, percentual, duracao, dificuldade, operacoes)
 
 def mostrar_menu():
     while True:
@@ -164,4 +173,5 @@ def mostrar_menu():
 def main():
     mostrar_menu()
 
-main()
+if __name__ == "__main__":
+    main()

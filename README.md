@@ -1,5 +1,4 @@
-Quiz Matemático em Python
-Este é um jogo de quiz de matemática desenvolvido em Python, usando programação procedural, sem frameworks.
+Quiz Matemático em Python. Este é um jogo de quiz de matemática desenvolvido em Python, usando programação procedural, sem frameworks.
 
 Funcionalidades
 - Diversar operações matemáticas (adição, subtração, raiz, etc.)

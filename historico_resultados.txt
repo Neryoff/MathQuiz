@@ -1,0 +1,4 @@
+Jorge - 3 acertos, 7 erros - 30.00% - Tempo: 41.15s - Dificuldade: médio - Op: *
+João - 4 acertos, 1 erros - 80.00% - Tempo: 11.13s - Dificuldade: fácil - Op: /
+Maria - 1 acertos, 14 erros - 6.67% - Tempo: 53.28s - Dificuldade: difícil - Op: **
+Victor - 3 acertos, 7 erros - 30.00% - Tempo: 70.11s - Dificuldade: médio - Op: **

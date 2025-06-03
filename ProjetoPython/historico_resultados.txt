@@ -1,3 +1,0 @@
-Victor - 10 acertos, 0 erros - 100.00% - Tempo: 16.75s - Dificuldade: médio - Op: raiz
-Victor - 1 acertos, 14 erros - 6.67% - Tempo: 94.91s - Dificuldade: difícil - Op: /
-Victor Nery - 5 acertos, 0 erros - 100.00% - Tempo: 18.43s - Dificuldade: fácil - Op: %

@@ -2,3 +2,8 @@ Jorge - 3 acertos, 7 erros - 30.00% - Tempo: 41.15s - Dificuldade: médio - Op: *
 João - 4 acertos, 1 erros - 80.00% - Tempo: 11.13s - Dificuldade: fácil - Op: /
 Maria - 1 acertos, 14 erros - 6.67% - Tempo: 53.28s - Dificuldade: difícil - Op: **
 Victor - 3 acertos, 7 erros - 30.00% - Tempo: 70.11s - Dificuldade: médio - Op: **
+Josefa - 4 acertos, 1 erros - 80.00% - Tempo: 21.87s - Dificuldade: fácil - Op: //
+Mario - 3 acertos, 12 erros - 20.00% - Tempo: 16.12s - Dificuldade: difícil - Op: +
+Bruno - 4 acertos, 1 erros - 80.00% - Tempo: 21.89s - Dificuldade: fácil - Op: raiz
+Lauro - 1 acertos, 9 erros - 10.00% - Tempo: 35.71s - Dificuldade: médio - Op: *
+Joana - 3 acertos, 12 erros - 20.00% - Tempo: 22.28s - Dificuldade: difícil - Op: -
